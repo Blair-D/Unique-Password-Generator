@@ -41,7 +41,7 @@ function generatePassword() {
     if (addspecialChar){ passwordChar.push (...specialCharacters)}
 
     var finalPassword = "";
-    for  (var i = 0; i < numofChar; i++) {
+    for  (var i = 0; i < numofcharacters; i++) {
       var randomChar = passwordChar[Math.floor(Math.random() *passwordChar.length)];
       finalPassword += randomChar;
     }
