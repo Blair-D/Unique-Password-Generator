@@ -32,7 +32,7 @@ function generatePassword() {
     var addspecialChar = confirm("Would you like to include special characters in your password?");
 
     if (!addupperCase && !addlowerCase && !addnumeric && !addspecialChar){
-      alert("You must choose at least 1 0f 4 character category options");
+      alert("You must choose at least 1 of 4 character category options");
     }
 
     if (addupperCase){ passwordChar.push (...upperCaseLetters)}
